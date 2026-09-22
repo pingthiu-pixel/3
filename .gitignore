@@ -1,0 +1,55 @@
+```
+# CMake build artifacts
+PArchiver/build/
+PArchiver/CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+Makefile
+
+# Executables
+PArchiver/PArchiver
+PArchiver/parchiver_cli
+
+# Object files
+*.o
+*.obj
+*.d
+
+# Temporary and extracted files
+PArchiver/extracted/
+
+# Archives and test files
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+
+# OS files
+.DS_Store
+Thumbs.db
+```
